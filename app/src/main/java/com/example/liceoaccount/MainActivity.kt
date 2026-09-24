@@ -9,7 +9,7 @@ import androidx.compose.ui.Modifier
 import com.example.liceoaccount.ui.LiceoAccountApp
 import com.example.liceoaccount.ui.theme.LiceoAccountTheme
 
-// GIVEN (read it, do not change it)
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

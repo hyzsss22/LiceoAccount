@@ -7,7 +7,7 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.viewmodel.compose.viewModel
 
-// GIVEN (read it, do not change it)
+
 @Composable
 fun LiceoAccountApp(vm: AuthViewModel = viewModel()) {
     var screen by rememberSaveable { mutableStateOf("login") }

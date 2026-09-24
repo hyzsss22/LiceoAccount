@@ -13,11 +13,11 @@ class AuthViewModel(
     private val repository: UserRepository = UserRepository()
 ) : ViewModel() {
 
-    // GIVEN (read it, do not change it)
+    
     var uiState by mutableStateOf<AuthUiState>(AuthUiState.Idle)
         private set
 
-    private val datePattern = Regex("""\d{4}-\d{2}-\d{2}""")   // like 2004-05-17
+    private val datePattern = Regex("""\d{4}-\d{2}-\d{2}""")  
 
     fun clearMessage() { uiState = AuthUiState.Idle }
 

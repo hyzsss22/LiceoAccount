@@ -19,7 +19,7 @@ fun LoginScreen(
     onLogin: (String, String) -> Unit,
     onGoToRegister: () -> Unit
 ) {
-    // GIVEN: what the user types lives here
+    
     var email by rememberSaveable { mutableStateOf("") }
     var password by rememberSaveable { mutableStateOf("") }
     var showPassword by rememberSaveable { mutableStateOf(false) }
